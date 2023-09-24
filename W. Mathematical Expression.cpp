@@ -10,7 +10,7 @@ int main()
     if (q=='='){
         if (s=='+'){
             if ((c==a+b)==true){
-                cout<<"YES"<<endl;
+                cout<<"Yes"<<endl;
             }
             else{
                 cout<<(a+b)<<endl;
@@ -18,7 +18,7 @@ int main()
         }
         else if (s=='-'){
                 if ((c==a-b)==true){
-                cout<<"YES"<<endl;
+                cout<<"Yes"<<endl;
             }
             else{
                 cout<<(a-b)<<endl;
@@ -26,7 +26,7 @@ int main()
         }
         else if (s=='*'){
             if ((c==a*b)==true){
-                cout<<"YES"<<endl;
+                cout<<"Yes"<<endl;
             }
             else{
                 cout<<(a*b)<<endl;
